@@ -55,6 +55,8 @@ ffi.cdef[[
     int getmaxx(WINDOW *);
     int getmaxy(WINDOW *);
 
+    void PDC_set_title(const char *);
+
     /* Text display */
     int printw(const char*, ...);
     int addch(const chtype);

@@ -206,6 +206,8 @@ local function main()
 
     setup_colors()
 
+    curses.PDC_set_title("launcher.lua")
+
     local query = ""
     local sortedEntries = {}
     for i,v in ipairs(config.entries) do
