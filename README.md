@@ -1,7 +1,7 @@
 # launcher.lua
 
 A simple and lightweight program launcher.
-Currently windows-only.
+Currently windows-only, but pull requests are accepted.
 
 ## Requirements
 
@@ -24,4 +24,10 @@ You can prefix the query with `;` instead to launch it without a console.
 
 Prefixing the query with `::` brings up a list of utilities used for developing this project.
 These may change at any time and are meant only for development use.
+
+## launch_helper.lua
+
+A helper script for starting launcher.lua from Window's Run box (accessed with Windows+R).
+This script assumes that the launcher.lua repository is cloned to ~/launcher.
+You would type the following into the Run box: `luajit.exe launcher/launch_helper.lua`
 
